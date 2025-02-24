@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "refly"
+version = "1.0.0"
+description = "Refly: A tool to fetch research papers from BibTeX entries"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/yourusername/refly"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+arxiv = "*"
+bibtexparser = "*"
+scidownl = "*"
+tqdm = "*"
+
+[tool.poetry.scripts]
+refly = "refly:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
