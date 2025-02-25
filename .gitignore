@@ -1,0 +1,5 @@
+*.bib
+unpaywall_cache
+poetry.lock
+dist/*
+papers/*

@@ -2,7 +2,7 @@
 name = "refly"
 version = "1.0.0"
 description = "Refly: A tool to fetch research papers from BibTeX entries"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["rfilva rfsilva@lip.pt"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/yourusername/refly"
@@ -15,7 +15,7 @@ scidownl = "*"
 tqdm = "*"
 
 [tool.poetry.scripts]
-refly = "refly:main"
+refly = "refly.refly:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
